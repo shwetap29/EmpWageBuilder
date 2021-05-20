@@ -9,7 +9,7 @@ public class EmpWagebuilder {
 
             int empHR = 0;
 
-            double empCheck = (Math.random() * 10) % 3;
+            int empCheck =  (int) (Math.floor(Math.random()) * 10) % 3;
             System.out.println(IS_FULL_TIME);
             // full time
             // if (empCheck == IS_FULL_TIME) {
